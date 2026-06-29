@@ -5,7 +5,7 @@ Este projeto tem como objetivo desenvolver um modelo preditivo para estimar o to
 ##  Status do Projeto: Em Desenvolvimento
 O projeto encontra-se em fase de construção do *pipeline* de dados e modelagem inicial. O código está versionado para acompanhamento e iteração contínua.
 
-## 🛠️ Pipeline e Abordagem Técnica
+##  Pipeline e Abordagem Técnica
 Para garantir a qualidade dos dados, o projeto adota as seguintes etapas:
 * **Normalização de Dados:** Utilização da biblioteca `unidecode` para padronizar nomes de rotas (ex: remoção de acentos), evitando a criação de duplicidade de categorias.
 * **Pré-processamento:** Aplicação de `LabelEncoder` para transformar variáveis categóricas em numéricas, adequando-as aos algoritmos de regressão.
